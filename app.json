@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "MusicSearch",
+    "slug": "MusicSearch",
+    "description": "MusicSearch is an App developed for the course HCI of the Uni Wien. MusicSearch allows useres to search for artists (bands/singer) and their albums using the musicbrainz API.",
+    "version": "1.0.0",
+    "owner": "kerim325",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "at.ac.univie.HCI.A2App.MusicSearch"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "916384eb-a9b5-406f-9881-77bf1d4c3d1f"
+      }
+    }
+  }
+}
